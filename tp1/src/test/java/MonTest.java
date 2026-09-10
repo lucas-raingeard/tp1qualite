@@ -1,4 +1,4 @@
-package fr.jmdoudoux.dej.junit5;
+
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -9,7 +9,7 @@ public class MonTest {
  
   @Test
   public void simpleTest() {
-    assertEquals(3, Add.add(1, 2));
+    Assertions.assertEquals(3, Add.add(1, 2));
   }
 
   
